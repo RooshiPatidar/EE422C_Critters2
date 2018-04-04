@@ -69,8 +69,8 @@ public class Otter extends Critter {
 	}
 
 
-	public static void runStats(java.util.List<Critter> otters) {
-
+	public static String runStats(java.util.List<Critter> otters) {
+		String result = "";
 		int totalDistance = 0;
 		int farthestOtter = 0;
 		try {
@@ -90,10 +90,12 @@ public class Otter extends Critter {
 		double widthTraveled = (double)totalDistance/Params.world_width;
 		double heightTraveled = (double)totalDistance/Params.world_height;
 
-		System.out.print("" + otters.size() + " total otters    ");
-		System.out.println("Collectively, all living Otters have traveled " + totalDistance + " steps");
-		System.out.println("This is equivalent to " + widthTraveled + " times across the world width or " + heightTraveled + " times across the world height");
-		System.out.println("The farthest any single Otter has gotten is " + farthestOtter + " steps");
+		result += "" + otters.size() + " total otters    ";
+		result += "Collectively, all living Otters have traveled " + totalDistance + " steps" + '\n';
+		result += "This is equivalent to " + widthTraveled + " times across the world width or " + heightTraveled + " times across the world height" + '\n';
+		result += "The farthest any single Otter has gotten is " + farthestOtter + " steps" + '\n';
+
+		return result;
 	}
 
     @Override

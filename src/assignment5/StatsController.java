@@ -20,7 +20,8 @@ public class StatsController {
             Class<?> c = Class.forName("assignment5" + "." + className);
             Class[] params = {java.util.List.class};
             Method m = c.getDeclaredMethod("runStats", params);
-            m.invoke(c, (Critter.getInstances(className)));
+            String result = (String)m.invoke(c, (Critter.getInstances(className)));
+            statsLabel.setText(result);
         } catch (Exception e) {
             System.out.println("error processing: ");
         }

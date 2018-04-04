@@ -269,7 +269,7 @@ public abstract class Critter {
     public static List<Critter> getInstances(String critter_class_name) throws InvalidCritterException {
         List<Critter> result = new java.util.ArrayList<Critter>();
         try {
-            Class c = Class.forName("assignment4." + critter_class_name);
+            Class c = Class.forName("assignment5." + critter_class_name);
             for (Critter critter : population) {
                 if (c.isInstance(critter)) {
                     result.add(critter);
@@ -285,8 +285,9 @@ public abstract class Critter {
      * Prints out how many Critters of each type there are on the board.
      * @param critters List of Critters.
      */
-    public static void runStats(List<Critter> critters) {
-        System.out.print("" + critters.size() + " critters as follows -- ");
+    public static String runStats(List<Critter> critters) {
+        StringBuilder result = new StringBuilder();
+        result.append("").append(critters.size()).append(" critters as follows -- ");
         java.util.Map<String, Integer> critter_count = new java.util.HashMap<String, Integer>();
         for (Critter crit : critters) {
             String crit_string = crit.toString();
@@ -299,10 +300,10 @@ public abstract class Critter {
         }
         String prefix = "";
         for (String s : critter_count.keySet()) {
-            System.out.print(prefix + s + ":" + critter_count.get(s));
+            result.append(prefix).append(s).append(":").append(critter_count.get(s));
             prefix = ", ";
         }
-        System.out.println();
+        return result.toString();
     }
 
     /* the TestCritter class allows some critters to "cheat". If you want to

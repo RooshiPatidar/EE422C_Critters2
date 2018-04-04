@@ -67,8 +67,8 @@ public class Longhorn extends Critter {
 
 	}
 
-	public static void runStats(List<Critter> longhorns) {
-
+	public static String runStats(List<Critter> longhorns) {
+		String result = "";
 		int totalDistance = 0;
 		int totalChancesToMove = 0;
 		int totalChildrenHad = 0;
@@ -88,14 +88,15 @@ public class Longhorn extends Critter {
 				}
 			}
 		} catch (Exception e) {
-			System.out.println(e);
+			result += e;
 		}
 
 		int nothing = totalChancesToMove-totalDistance;
 
-		System.out.println("Time spent chillin': " + nothing + "/" + totalChancesToMove);
-		System.out.println("The Longhorns are eating grass " + ((double)nothing/totalChancesToMove)*100 + "% of the time");
-		System.out.println("For all of the Longhorns that have had at least 1 child, they have, on average, " + ((double)totalChildrenHad/totalParents) + " children");
+		result += "Time spent chillin': " + nothing + "/" + totalChancesToMove + '\n';
+		result += "The Longhorns are eating grass " + ((double)nothing/totalChancesToMove)*100 + "% of the time" + '\n';
+		result += "For all of the Longhorns that have had at least 1 child, they have, on average, " + ((double)totalChildrenHad/totalParents) + " children" + '\n';
+		return result;
 	}
 
     @Override
