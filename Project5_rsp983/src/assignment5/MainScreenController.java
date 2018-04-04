@@ -37,7 +37,6 @@ public class MainScreenController {
     @FXML private JFXSlider makeSlider;
     @FXML private JFXSlider stepSlider;
     @FXML private JFXSlider animateSlider;
-    @FXML private JFXButton animateButton;
     @FXML private VBox statsClassesVBox;
     @FXML private VBox makeClassesVBox;
 
@@ -196,7 +195,6 @@ public class MainScreenController {
         playing = !playing;
 
         if (!playing) {
-            animateButton.setText("Stop");
             int fps = (int) Math.round(animateSlider.getValue());
             double sleep = 1.0 / fps;
             Timeline tl = new Timeline();
@@ -212,7 +210,7 @@ public class MainScreenController {
             tl.getKeyFrames().add(moveBall);
             tl.play();
         } else {
-            animateButton.setText("Animate");
+
             playingTimeline.stop();
         }
 

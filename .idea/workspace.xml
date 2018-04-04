@@ -2,9 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/out/production/Critters2/assignment5/Critter.class" afterPath="$PROJECT_DIR$/out/production/Critters2/assignment5/Critter.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Critters2/assignment5/GridCritter.class" afterPath="$PROJECT_DIR$/out/production/Critters2/assignment5/GridCritter.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Critters2/assignment5/Main.class" afterPath="$PROJECT_DIR$/out/production/Critters2/assignment5/Main.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Critters2/assignment5/MainScreenController.class" afterPath="$PROJECT_DIR$/out/production/Critters2/assignment5/MainScreenController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Critters2/assignment5/StartupScreenController.class" afterPath="$PROJECT_DIR$/out/production/Critters2/assignment5/StartupScreenController.class" />
+      <change beforePath="$PROJECT_DIR$/out/production/Critters2/assignment5/StatsController.class" afterPath="$PROJECT_DIR$/out/production/Critters2/assignment5/StatsController.class" />
       <change beforePath="$PROJECT_DIR$/src/assignment5/Critter.java" afterPath="$PROJECT_DIR$/src/assignment5/Critter.java" />
-      <change beforePath="$PROJECT_DIR$/src/assignment5/Longhorn.java" afterPath="$PROJECT_DIR$/src/assignment5/Longhorn.java" />
+      <change beforePath="$PROJECT_DIR$/src/assignment5/GridCritter.java" afterPath="$PROJECT_DIR$/src/assignment5/GridCritter.java" />
+      <change beforePath="$PROJECT_DIR$/src/assignment5/Main.java" afterPath="$PROJECT_DIR$/src/assignment5/Main.java" />
       <change beforePath="$PROJECT_DIR$/src/assignment5/MainScreenController.java" afterPath="$PROJECT_DIR$/src/assignment5/MainScreenController.java" />
+      <change beforePath="$PROJECT_DIR$/src/assignment5/StartupScreenController.java" afterPath="$PROJECT_DIR$/src/assignment5/StartupScreenController.java" />
+      <change beforePath="$PROJECT_DIR$/src/assignment5/StatsController.java" afterPath="$PROJECT_DIR$/src/assignment5/StatsController.java" />
       <change beforePath="$PROJECT_DIR$/src/assignment5/fxml/mainScreen.fxml" afterPath="$PROJECT_DIR$/src/assignment5/fxml/mainScreen.fxml" />
     </list>
     <ignored path="JavaFxApplication.iws" />
@@ -63,124 +73,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment5/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1073">
-              <caret line="83" column="57" lean-forward="false" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
-              <folding>
-                <element signature="e#2767#2768#0" expanded="true" />
-                <element signature="e#2806#2807#0" expanded="true" />
-                <element signature="e#2856#2857#0" expanded="true" />
-                <element signature="e#2892#2893#0" expanded="true" />
-                <element signature="e#2931#2932#0" expanded="true" />
-                <element signature="e#2973#2974#0" expanded="true" />
-                <element signature="e#3028#3029#0" expanded="true" />
-                <element signature="e#3082#3083#0" expanded="true" />
-                <element signature="e#3120#3121#0" expanded="true" />
-                <element signature="e#3161#3162#0" expanded="true" />
-                <element signature="e#3214#3215#0" expanded="true" />
-                <element signature="e#3266#3267#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="MainScreenController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assignment5/MainScreenController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2628">
-              <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+            <state relative-caret-position="612">
+              <caret line="214" column="42" lean-forward="false" selection-start-line="214" selection-start-column="42" selection-end-line="214" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StatsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment5/StatsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="stats.fxml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment5/fxml/stats.fxml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="JavaFX-Scene-Builder">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Critter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment5/Critter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="281">
-              <caret line="140" column="26" lean-forward="false" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Craig.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment5/Craig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="291">
-              <caret line="68" column="64" lean-forward="true" selection-start-line="68" selection-start-column="64" selection-end-line="68" selection-end-column="64" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Otter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment5/Otter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="101" column="62" lean-forward="false" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Algae.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment5/Algae.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-7">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Params.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment5/Params.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Longhorn.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/assignment5/Longhorn.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-457">
-              <caret line="64" column="9" lean-forward="false" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -238,20 +138,21 @@
         <option value="$PROJECT_DIR$/src/assignment5/MainScreen.java" />
         <option value="$PROJECT_DIR$/src/assignment5/StartupScreen.java" />
         <option value="$PROJECT_DIR$/src/assignment5/startupScreen.fxml" />
-        <option value="$PROJECT_DIR$/src/assignment5/StartupScreenController.java" />
         <option value="$PROJECT_DIR$/src/assignment5/fxml/mainScreen.fxml" />
         <option value="$PROJECT_DIR$/src/assignment5/fxml/startupScreen.fxml" />
         <option value="$PROJECT_DIR$/src/assignment5/Painter.java" />
-        <option value="$PROJECT_DIR$/src/assignment5/GridCritter.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Algae.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Params.java" />
         <option value="$PROJECT_DIR$/src/assignment5/fxml/stats.fxml" />
         <option value="$PROJECT_DIR$/src/assignment5/Craig.java" />
-        <option value="$PROJECT_DIR$/src/assignment5/StatsController.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Main.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Otter.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Critter.java" />
         <option value="$PROJECT_DIR$/src/assignment5/Longhorn.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/TestCraig.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/GridCritter.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/StartupScreenController.java" />
+        <option value="$PROJECT_DIR$/src/assignment5/StatsController.java" />
         <option value="$PROJECT_DIR$/src/assignment5/MainScreenController.java" />
       </list>
     </option>
@@ -263,8 +164,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds">
-    <option name="x" value="952" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
     <option name="width" value="976" />
     <option name="height" value="1038" />
   </component>
@@ -287,10 +188,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -309,17 +209,11 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assignment5" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="Critters2" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Critters2" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assignment5" type="462c0819:PsiDirectoryNode" />
-              <item name="fxml" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -338,16 +232,17 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\Rooshi\Documents\College\EE422C\Critters2\src\assignment5\fxml" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Rooshi\Documents\College\EE422C\Critters2\src\assignment5" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="assignment5" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\Rooshi\Documents\College\EE422C\Critters2\src\assignment5" />
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Rooshi\Documents\College\EE422C\Critters2\src\assignment5\fxml" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -494,15 +389,16 @@
       <updated>1359379246138</updated>
       <workItem from="1359379250712" duration="1302000" />
       <workItem from="1522701321764" duration="16064000" />
-      <workItem from="1522787888365" duration="29706000" />
+      <workItem from="1522787888365" duration="30874000" />
+      <workItem from="1522868015477" duration="95000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47072000" />
+    <option name="totallyTimeSpent" value="48335000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="952" y="0" width="976" height="1038" extended-state="0" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -513,14 +409,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3252595" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3249715" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28444445" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14178303" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -537,6 +432,7 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295325" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -560,23 +456,33 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/assignment5/MainScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="96" column="22" lean-forward="true" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
           <folding>
-            <element signature="e#2767#2768#0" expanded="true" />
-            <element signature="e#2806#2807#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
-            <element signature="e#2892#2893#0" expanded="true" />
-            <element signature="e#2931#2932#0" expanded="true" />
-            <element signature="e#2973#2974#0" expanded="true" />
-            <element signature="e#3028#3029#0" expanded="true" />
-            <element signature="e#3082#3083#0" expanded="true" />
-            <element signature="e#3120#3121#0" expanded="true" />
-            <element signature="e#3161#3162#0" expanded="true" />
-            <element signature="e#3214#3215#0" expanded="true" />
-            <element signature="e#3266#3267#0" expanded="true" />
+            <element signature="e#2767#2768#0" expanded="false" />
+            <element signature="e#2806#2807#0" expanded="false" />
+            <element signature="e#2856#2857#0" expanded="false" />
+            <element signature="e#2892#2893#0" expanded="false" />
+            <element signature="e#2931#2932#0" expanded="false" />
+            <element signature="e#2973#2974#0" expanded="false" />
+            <element signature="e#3028#3029#0" expanded="false" />
+            <element signature="e#3082#3083#0" expanded="false" />
+            <element signature="e#3120#3121#0" expanded="false" />
+            <element signature="e#3161#3162#0" expanded="false" />
+            <element signature="e#3214#3215#0" expanded="false" />
+            <element signature="e#3266#3267#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -620,7 +526,7 @@
         <state relative-caret-position="90">
           <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -633,14 +539,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Painter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="46" column="10" lean-forward="false" selection-start-line="46" selection-start-column="10" selection-end-line="46" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Painter.java" />
     <entry file="file://$PROJECT_DIR$/src/assignment5/Params.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -671,14 +570,6 @@
     <entry file="file://$PROJECT_DIR$/src/assignment4/Craig.java" />
     <entry file="file://$PROJECT_DIR$/src/assignment4/Otter.java" />
     <entry file="file://$PROJECT_DIR$/src/assignment4/Main.java" />
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Header.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/InvalidCritterException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -699,49 +590,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Painter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="522">
-          <caret line="42" column="8" lean-forward="false" selection-start-line="42" selection-start-column="8" selection-end-line="42" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Painter.java" />
     <entry file="jar://C:/Program Files/Java/jdk1.8.0_161/javafx-src.zip!/javafx/fxml/FXMLLoader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="82">
           <caret line="2565" column="0" lean-forward="false" selection-start-line="2565" selection-start-column="0" selection-end-line="2565" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/GridCritter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#297#298#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#346#347#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#395#396#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/StartupScreenController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="20" column="5" lean-forward="true" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Params.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -749,7 +602,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="12" column="219" lean-forward="false" selection-start-line="12" selection-start-column="168" selection-end-line="12" selection-end-column="219" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
@@ -760,7 +612,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="288">
           <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -768,21 +619,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
       <provider editor-type-id="JavaFX-Scene-Builder">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/StatsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="52" lean-forward="true" selection-start-line="20" selection-start-column="52" selection-end-line="20" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/Craig.java">
@@ -793,65 +633,122 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Algae.java">
+    <entry file="file://$PROJECT_DIR$/src/assignment5/TestCraig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-7">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Otter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="101" column="62" lean-forward="false" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1073">
-          <caret line="83" column="57" lean-forward="false" selection-start-line="83" selection-start-column="57" selection-end-line="83" selection-end-column="57" />
-          <folding>
-            <element signature="e#2767#2768#0" expanded="true" />
-            <element signature="e#2806#2807#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
-            <element signature="e#2892#2893#0" expanded="true" />
-            <element signature="e#2931#2932#0" expanded="true" />
-            <element signature="e#2973#2974#0" expanded="true" />
-            <element signature="e#3028#3029#0" expanded="true" />
-            <element signature="e#3082#3083#0" expanded="true" />
-            <element signature="e#3120#3121#0" expanded="true" />
-            <element signature="e#3161#3162#0" expanded="true" />
-            <element signature="e#3214#3215#0" expanded="true" />
-            <element signature="e#3266#3267#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="281">
-          <caret line="140" column="26" lean-forward="false" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+        <state relative-caret-position="234">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/Longhorn.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-457">
-          <caret line="64" column="9" lean-forward="false" selection-start-line="64" selection-start-column="9" selection-end-line="64" selection-end-column="9" />
+        <state relative-caret-position="18">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="7" selection-end-column="3" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Algae.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Critter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2322">
+          <caret line="140" column="26" lean-forward="false" selection-start-line="140" selection-start-column="26" selection-end-line="140" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Header.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="19" lean-forward="false" selection-start-line="0" selection-start-column="19" selection-end-line="0" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/GridCritter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="3" lean-forward="false" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="3" />
+          <folding>
+            <element signature="e#384#385#0" expanded="false" />
+            <element signature="e#414#415#0" expanded="false" />
+            <element signature="e#439#440#0" expanded="false" />
+            <element signature="e#463#464#0" expanded="false" />
+            <element signature="e#488#489#0" expanded="false" />
+            <element signature="e#512#513#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="31" column="33" lean-forward="true" selection-start-line="31" selection-start-column="33" selection-end-line="31" selection-end-column="33" />
+          <folding>
+            <element signature="e#2767#2768#0" expanded="false" />
+            <element signature="e#2806#2807#0" expanded="false" />
+            <element signature="e#2856#2857#0" expanded="false" />
+            <element signature="e#2892#2893#0" expanded="false" />
+            <element signature="e#2931#2932#0" expanded="false" />
+            <element signature="e#2973#2974#0" expanded="false" />
+            <element signature="e#3028#3029#0" expanded="false" />
+            <element signature="e#3082#3083#0" expanded="false" />
+            <element signature="e#3120#3121#0" expanded="false" />
+            <element signature="e#3161#3162#0" expanded="false" />
+            <element signature="e#3214#3215#0" expanded="false" />
+            <element signature="e#3266#3267#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Otter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1782">
+          <caret line="101" column="62" lean-forward="false" selection-start-line="101" selection-start-column="62" selection-end-line="101" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/Params.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/StartupScreenController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="35" lean-forward="false" selection-start-line="2" selection-start-column="35" selection-end-line="2" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assignment5/StatsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="27" selection-end-line="2" selection-end-column="27" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/assignment5/MainScreenController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2628">
-          <caret line="34" column="35" lean-forward="false" selection-start-line="34" selection-start-column="35" selection-end-line="34" selection-end-column="35" />
+        <state relative-caret-position="612">
+          <caret line="214" column="42" lean-forward="false" selection-start-line="214" selection-start-column="42" selection-end-line="214" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

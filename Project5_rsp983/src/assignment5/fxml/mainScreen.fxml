@@ -55,7 +55,7 @@
                            <children>
                               <VBox alignment="CENTER" prefHeight="800.0" prefWidth="158.0" spacing="7.0">
                                  <children>
-                                    <JFXButton fx:id="animateButton" onAction="#animate" stylesheets="@../res/css/defaultButton.css" text="Animate" />
+                                    <JFXButton onAction="#animate" stylesheets="@../res/css/defaultButton.css" text="Animate" />
                                     <Label stylesheets="@../res/css/smalllabel.css" text="Animation speed (fps)" wrapText="true" />
                                  </children>
                               </VBox>
