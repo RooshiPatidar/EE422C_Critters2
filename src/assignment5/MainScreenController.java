@@ -215,8 +215,16 @@ public class MainScreenController {
 
             //Star
             case 4: Polygon star = new Polygon();
+            size /= 6;
                 star.getPoints().setAll(
-
+                        0.0, size * 3,
+                        size * 2, size * 2,
+                        size * 3, 0.0,
+                        size * 4, size * 2,
+                        size * 6, size * 3,
+                        size * 4, size * 4,
+                        size * 3, size * 6,
+                        size * 2, size * 4
                 );
                 s = star;
 
