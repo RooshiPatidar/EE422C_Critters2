@@ -1,0 +1,8 @@
+.jfx-button {
+	-fx-background-color: #fb8c00;
+	-fx-text-fill: white;
+	-jfx-rippler-fill: #ffba62;
+	-jfx-button-type: RAISED;
+	-fx-font-family: "Roboto";
+    -fx-font-size: 20.0;
+}

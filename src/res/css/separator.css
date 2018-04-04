@@ -1,0 +1,4 @@
+.separator *.line {
+	-fx-border-style: dashed;
+	-fx-border-width: 0px;
+}

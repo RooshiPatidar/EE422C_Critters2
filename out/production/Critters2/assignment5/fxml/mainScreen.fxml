@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSlider?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane prefHeight="800.0" prefWidth="1600.0" stylesheets="@../../res/css/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment5.MainScreenController">
+   <children>
+      <HBox fx:id="mainHBox" alignment="CENTER_LEFT" prefHeight="800.0" prefWidth="1600.0">
+         <children>
+            <HBox alignment="CENTER">
+               <children>
+                  <HBox alignment="CENTER" prefHeight="800.0" prefWidth="186.0" spacing="7.0">
+                     <children>
+                        <Label stylesheets="@../res/css/smalllabel.css" text="Stats" />
+                        <VBox fx:id="statsClassesVBox" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="8.0" />
+                     </children>
+                  </HBox>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" prefWidth="3.0" stylesheets="@../res/css/separator.css">
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </Separator>
+                  <HBox alignment="CENTER" prefHeight="800.0" prefWidth="259.0" spacing="7.0">
+                     <children>
+                        <Label stylesheets="@../res/css/smalllabel.css" text="Make" />
+                        <JFXSlider fx:id="makeSlider" majorTickUnit="10.0" minorTickCount="2" orientation="VERTICAL" prefHeight="700.0" prefWidth="54.0" showTickLabels="true" showTickMarks="true" stylesheets="@../res/css/slider.css" />
+                        <VBox fx:id="makeClassesVBox" alignment="CENTER" prefHeight="200.0" prefWidth="100.0" spacing="7.0" />
+                     </children>
+                  </HBox>
+                  <Separator orientation="VERTICAL" prefHeight="200.0" stylesheets="@../res/css/separator.css">
+                     <padding>
+                        <Insets left="5.0" right="5.0" />
+                     </padding>
+                  </Separator>
+                  <HBox alignment="CENTER" prefHeight="800.0" prefWidth="300.0" spacing="7.0">
+                     <children>
+                        <VBox alignment="CENTER" prefHeight="800.0" prefWidth="158.0" spacing="7.0">
+                           <children>
+                              <JFXButton onAction="#step" stylesheets="@../res/css/defaultButton.css" text="Step" />
+                              <JFXButton layoutX="10.0" layoutY="10.0" onAction="#step" stylesheets="@../res/css/defaultButton.css" text="Step 1000" wrapText="true" />
+                           </children>
+                        </VBox>
+                        <JFXSlider fx:id="stepSlider" majorTickUnit="10.0" minorTickCount="2" orientation="VERTICAL" prefHeight="500.0" prefWidth="97.0" showTickLabels="true" showTickMarks="true" stylesheets="@../res/css/slider.css" />
+                     </children>
+                  </HBox>
+               </children>
+            </HBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

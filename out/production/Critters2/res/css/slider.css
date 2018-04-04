@@ -1,0 +1,20 @@
+.jfx-slider {
+	-jfx-slider-fill: white;
+	-jfx-rippler-fill: #ffba62;
+    -fx-font-size: 20.0;
+}
+
+.jfx-slider > .colored-track {
+	-fx-background-color: #fb8c00;
+}
+
+.jfx-slider > .thumb {
+	-fx-background-color: #fb8c00;
+}
+.jfx-slider > .animated-thumb{
+	-fx-background-color: #fb8c00;
+}
+
+.jfx-slider .axis:bottom {
+	-fx-tick-label-fill: #4f6174;
+}

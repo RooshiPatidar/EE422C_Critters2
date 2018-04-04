@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXSlider?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" stylesheets="@../../res/css/background.css" xmlns="http://javafx.com/javafx/9.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="assignment5.StartupScreenController">
+   <children>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0">
+         <children>
+            <Label stylesheets="@../../res/css/Critters2.css" text="Critters2">
+               <font>
+                  <Font name="Roboto Thin" size="150.0" />
+               </font>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label stylesheets="@../../res/css/smalllabel.css" text="World Width">
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin></Label>
+            <JFXSlider fx:id="widthSlider" majorTickUnit="10.0" showTickLabels="true" showTickMarks="true" stylesheets="@../../res/css/slider.css">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin></JFXSlider>
+            <Label stylesheets="@../../res/css/smalllabel.css" text="World Height">
+               <VBox.margin>
+                  <Insets bottom="5.0" />
+               </VBox.margin></Label>
+            <JFXSlider fx:id="heightSlider" layoutX="10.0" layoutY="150.0" majorTickUnit="10.0" showTickLabels="true" showTickMarks="true" stylesheets="@../../res/css/slider.css">
+               <VBox.margin>
+                  <Insets left="5.0" right="5.0" />
+               </VBox.margin></JFXSlider>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+               <children>
+                  <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label stylesheets="@../../res/css/smalllabel.css" text="Seed" translateX="35.0" />
+                        <JFXTextField fx:id="seedTextField" alignment="BOTTOM_CENTER" promptText="Random" stylesheets="@../../res/css/textField.css" translateX="35.0" />
+                     </children>
+                  </VBox>
+                  <JFXButton fx:id="nextButton" onAction="#toMainScreen" onMouseClicked="#toMainScreen" stylesheets="@../../res/css/defaultButton.css" text="Next" translateX="200.0" translateY="20.0">
+                     <font>
+                        <Font size="19.0" />
+                     </font>
+                  </JFXButton>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
