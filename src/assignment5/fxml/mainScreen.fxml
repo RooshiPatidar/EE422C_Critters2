@@ -38,17 +38,32 @@
                         <Insets left="5.0" right="5.0" />
                      </padding>
                   </Separator>
-                  <HBox alignment="CENTER" prefHeight="800.0" prefWidth="300.0" spacing="7.0">
+                  <VBox>
                      <children>
-                        <VBox alignment="CENTER" prefHeight="800.0" prefWidth="158.0" spacing="7.0">
+                        <HBox alignment="CENTER" prefHeight="800.0" prefWidth="300.0" spacing="7.0">
                            <children>
-                              <JFXButton onAction="#step" stylesheets="@../res/css/defaultButton.css" text="Step" />
-                              <JFXButton layoutX="10.0" layoutY="10.0" onAction="#step" stylesheets="@../res/css/defaultButton.css" text="Step 1000" wrapText="true" />
+                              <VBox alignment="CENTER" prefHeight="800.0" prefWidth="158.0" spacing="7.0">
+                                 <children>
+                                    <JFXButton onAction="#step" stylesheets="@../res/css/defaultButton.css" text="Step" />
+                                    <JFXButton layoutX="10.0" layoutY="10.0" onAction="#step" stylesheets="@../res/css/defaultButton.css" text="Step 1000" wrapText="true" />
+                                 </children>
+                              </VBox>
+                              <JFXSlider fx:id="stepSlider" majorTickUnit="10.0" minorTickCount="2" orientation="VERTICAL" prefHeight="500.0" prefWidth="97.0" showTickLabels="true" showTickMarks="true" stylesheets="@../res/css/slider.css" />
                            </children>
-                        </VBox>
-                        <JFXSlider fx:id="stepSlider" majorTickUnit="10.0" minorTickCount="2" orientation="VERTICAL" prefHeight="500.0" prefWidth="97.0" showTickLabels="true" showTickMarks="true" stylesheets="@../res/css/slider.css" />
+                        </HBox>
+                        <HBox alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="800.0" prefWidth="300.0" spacing="7.0">
+                           <children>
+                              <VBox alignment="CENTER" prefHeight="800.0" prefWidth="158.0" spacing="7.0">
+                                 <children>
+                                    <JFXButton onAction="#animate" stylesheets="@../res/css/defaultButton.css" text="Animate" />
+                                    <Label stylesheets="@../res/css/smalllabel.css" text="Animation speed (fps)" wrapText="true" />
+                                 </children>
+                              </VBox>
+                              <JFXSlider fx:id="animateSlider" majorTickUnit="10.0" minorTickCount="2" orientation="VERTICAL" prefHeight="500.0" prefWidth="97.0" showTickLabels="true" showTickMarks="true" stylesheets="@../res/css/slider.css" />
+                           </children>
+                        </HBox>
                      </children>
-                  </HBox>
+                  </VBox>
                </children>
             </HBox>
          </children>

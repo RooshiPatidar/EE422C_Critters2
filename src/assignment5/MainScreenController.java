@@ -2,11 +2,17 @@ package assignment5;
 
 import com.jfoenix.controls.JFXButton;
 import com.jfoenix.controls.JFXSlider;
+import javafx.animation.Animation;
+import javafx.animation.KeyFrame;
+import javafx.animation.Timeline;
+import javafx.event.ActionEvent;
+import javafx.event.EventHandler;
 import javafx.fxml.FXML;
 import javafx.scene.layout.*;
 import javafx.scene.paint.Color;
 import javafx.scene.shape.*;
 import javafx.stage.Stage;
+import javafx.util.Duration;
 import org.reflections.Reflections;
 
 import java.io.File;
@@ -22,8 +28,12 @@ public class MainScreenController {
     @FXML private HBox mainHBox;
     @FXML private JFXSlider makeSlider;
     @FXML private JFXSlider stepSlider;
+    @FXML private JFXSlider animateSlider;
     @FXML private VBox statsClassesVBox;
     @FXML private VBox makeClassesVBox;
+
+    private boolean playing = true;
+    private Timeline playingTimeline;
 
     @FXML
     public void initialize() {
@@ -166,6 +176,34 @@ public class MainScreenController {
         }
         show();
         updateStats();
+    }
+
+
+    @FXML
+    protected void animate() {
+        playing = !playing;
+
+        if (!playing) {
+            int fps = (int) Math.round(animateSlider.getValue());
+            double sleep = 1.0 / fps;
+            Timeline tl = new Timeline();
+            playingTimeline = tl;
+            tl.setCycleCount(Animation.INDEFINITE);
+            KeyFrame moveBall = new KeyFrame(Duration.seconds(sleep),
+                    event -> {
+                        Critter.worldTimeStep();
+                        show();
+                        updateStats();
+                    });
+
+            tl.getKeyFrames().add(moveBall);
+            tl.play();
+        } else {
+
+            playingTimeline.stop();
+        }
+
+
     }
 
     @FXML

@@ -137,6 +137,9 @@ public abstract class Critter {
         }
 
         this.energy -= Params.look_energy_cost;
+        if (steps) {
+            walk(direction);
+        }
         return popMap[x][y];
     }
 

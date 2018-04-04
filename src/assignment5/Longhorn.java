@@ -8,6 +8,7 @@ package assignment5;
  */
 
 import javafx.scene.paint.Color;
+import sun.font.CreatedFontTracker;
 
 import java.util.List;
 import java.util.Set;
@@ -50,11 +51,18 @@ public class Longhorn extends Critter {
 
 		//slow grazing
 		chancesToMove++;
-		if (Critter.getRandomInt(5) == 0) {
-			walk(Critter.getRandomInt(8));
-			distanceTraveled++;
+		boolean moved = false;
+		int moveRandom = Critter.getRandomInt(8);
+		if (look(moveRandom, false) != null) {
+			walk(moveRandom);
+			moved = true;
 		}
-		
+		if (!moved) {
+			moveRandom = Critter.getRandomInt(8);
+			if (look(moveRandom, false) != null) {
+				walk(moveRandom);
+			}
+		}
 		if (getEnergy() > Params.min_reproduce_energy && Critter.getRandomInt(3) == 0) {
 			Longhorn child = new Longhorn();
 			Longhorn child2 = new Longhorn();
