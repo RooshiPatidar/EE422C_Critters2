@@ -15,11 +15,13 @@ import javafx.scene.image.Image;
 import javafx.stage.Modality;
 import javafx.stage.Stage;
 
+import java.util.ArrayList;
+
 
 public class Main extends Application {
         private static Main instance;
         private Stage stage;
-        //private Stage modal;
+        ArrayList<StatsController> statsControllers = new ArrayList<>();
 
         public static int worldHeight;
         public static int worldWidth;
@@ -64,30 +66,28 @@ public class Main extends Application {
             return null;
         }
 
-    public Stage popUpStats() {
+    public void popUpStats() {
         try {
-            return popUpModalWindow("fxml/stats.fxml");
+            popUpModalWindow("fxml/stats.fxml");
         } catch (Exception e) {
             e.printStackTrace();
         }
-        return null;
     }
 
-    public Stage popUpModalWindow(String fxml) {
+    public void popUpModalWindow(String fxml) {
         try {
             Stage modal;
             modal = new Stage();
 
             FXMLLoader loader = new FXMLLoader(Main.class.getResource(fxml));
             Parent root = loader.load();
+            statsControllers.add(loader.getController());
             modal.setScene(new Scene(root));
             modal.initModality(Modality.WINDOW_MODAL);
             modal.initOwner(modal.getOwner());
             modal.centerOnScreen();
             modal.showAndWait();
-            return modal;
         } catch (Exception e) {e.printStackTrace();}
-        return null;
     }
 
         public static Main getInstance() {

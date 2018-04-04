@@ -154,6 +154,7 @@ public class MainScreenController {
             System.out.println("error processing: " + c);
         }
         show();
+        updateStats();
     }
 
 
@@ -164,12 +165,19 @@ public class MainScreenController {
             Critter.worldTimeStep();
         }
         show();
+        updateStats();
     }
 
     @FXML
     protected void stats(String c) {
         Main.getInstance().lastClickedStats = c;
-        Stage stage = Main.getInstance().popUpStats();
+        Main.getInstance().popUpStats();
+    }
+
+    private void updateStats() {
+        for (StatsController statsController : Main.getInstance().statsControllers) {
+            statsController.update();
+        }
     }
 
 
